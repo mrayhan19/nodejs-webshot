@@ -1,5 +1,5 @@
 # nodejs-webshot
-Aplikasi ini dibuat menggunakan NodeJS untuk memenuhi kebutuhan reporting penggunaan resource dari server yang digunakan oleh beberapa project di kantor termpat saya bekerja. Silahkan untuk digunakan dan dikembangkan sesuai dengan kebutuhan. Segala bantuan untuk pengembangan aplikasi sangat terbuka dan sangat saya apresiasi. Semoga bermanfaat
+Aplikasi ini dibuat menggunakan NodeJS untuk memenuhi kebutuhan otomatisasi reporting setiap beberapa waktu sekali penggunaan resource dari server yang digunakan oleh beberapa project di kantor termpat saya bekerja (dalam kasus ini saya mengambil screenshot dari dashboard Grafana, untuk kemudian dikirimkan menggunakan API WhatsApp). Silahkan untuk digunakan dan dikembangkan sesuai dengan kebutuhan. Segala bantuan untuk pengembangan aplikasi sangat terbuka dan sangat saya apresiasi. Semoga bermanfaat
 
 Cara penggunaan:
 
