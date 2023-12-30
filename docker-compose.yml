@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+  webshot:
+    container_name: webshot
+    image: webshot
+    build:
+      context: .
+    volumes:
+      - ./pic:/webshot
+    environment:
+    #Silahkan sesuaikan nilai dari variable di bawah ini sesuai dengan kebutuhan
+      - TZ=Asia/Jakarta
+      - GRAFANA_URL=http://172.168.100.161:3000/d/mpos/mpos?orgId=1&refresh=5s&kiosk
+      - SELECTOR=#reactRoot div.grafana-app main.main-view div.css-u0o4sl div.css-18a2o3k-page-panes div.css-3fb2vd-page-container div.css-1syiu8h-page-wrapper div.css-1uf4go5 div.scrollbar-view div.css-1978mzo-canvas-content div div div
+      - OUTPUT_DIR=/webshot/webshot.png
+      - WAIT_TIME=50000
+      - LEBAR=630
+      - TINGGI=265
